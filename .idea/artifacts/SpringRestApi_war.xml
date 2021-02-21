@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringRestApi:war">
+    <output-path>$PROJECT_DIR$/Task/SpringRestApi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringRestApi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringRestApi.war">
+      <element id="artifact" artifact-name="SpringRestApi:war exploded" />
+    </root>
+  </artifact>
+</component>
